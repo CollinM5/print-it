@@ -26,7 +26,7 @@ const arrows = document.getElementsByClassName("arrow");
 /* définition de l'image et du texte */
 function setSlide(id){
 	
-	slideImage.src = '/assets/images/slideshow/'+slides[id]["image"];
+	slideImage.src = 'assets/images/slideshow/'+slides[id]["image"];
 	slideText.innerHTML = slides[id]["tagLine"];
 
 	dotNavigation(currentImage);
